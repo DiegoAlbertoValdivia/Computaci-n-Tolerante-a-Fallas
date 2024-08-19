@@ -1,1 +1,1 @@
-# Computaci-n-Tolerante-a-Fallas
+# Computación-Tolerante-a-Fallas
