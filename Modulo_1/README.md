@@ -17,5 +17,5 @@ Conocer los conceptos básicos en sistemas tolerantes a fallas.
 
 # Bibliografias:
 
-* [Links](http://localhost/](https://aws.amazon.com/es/what-is/latency/#:~:text=La%20latencia%20de%20red%20es,respuesta%20r%C3%A1pidos%20tienen%20una%20baja.)
+* (http://localhost/](https://aws.amazon.com/es/what-is/latency/#:~:text=La%20latencia%20de%20red%20es,respuesta%20r%C3%A1pidos%20tienen%20una%20baja.)
 
