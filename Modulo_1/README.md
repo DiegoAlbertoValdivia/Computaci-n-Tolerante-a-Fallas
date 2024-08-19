@@ -19,5 +19,5 @@ Conocer los conceptos básicos en sistemas tolerantes a fallas.
 
 * http://localhost/](https://aws.amazon.com/es/what-is/latency/#:~:text=La%20latencia%20de%20red%20es,respuesta%20r%C3%A1pidos%20tienen%20una%20baja.
 * https://www.eleconomista.com.mx/tecnologia/que-es-un-bug-20200131-0079.html
-* https://www.eleconomista.com.mx/tecnologia/que-es-un-bug-20200131-0079.html
+* https://www.nytimes.com/es/2024/07/19/espanol/falla-informatica-mundial.html#:~:text=%E2%80%9CLas%20fallas%20ocurren%20constantemente%20y%20son%20inevitables%2C,operativo%20no%20era%20suficiente%20para%20mitigar%20ese
 
