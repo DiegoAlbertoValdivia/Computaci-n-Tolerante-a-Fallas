@@ -15,3 +15,7 @@ Conocer los conceptos básicos en sistemas tolerantes a fallas.
 + ¿Qué es la latencia de un error?
   + La latencia de red es el retraso en la comunicación de la red. Muestra el tiempo que tardan los datos en transferirse a través de la red. Las redes con un mayor retraso o retardo tienen una latencia alta, mientras que las que tienen tiempos de respuesta rápidos tienen una baja.
 
+# Bibliografias:
+
+* [Links]([http://localhost/](https://aws.amazon.com/es/what-is/latency/#:~:text=La%20latencia%20de%20red%20es,respuesta%20r%C3%A1pidos%20tienen%20una%20baja.))
+
