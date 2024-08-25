@@ -2,7 +2,7 @@
 ## Objetivo:
 Investiga otras herramientas para el manejar errores y:
 
-- Genera un reporte con otras herramientas para el manejo de errores en programación
+Genera un reporte con otras herramientas para el manejo de errores en programación
 ## Desarrollo:
 ## ¿Qué es el seguimiento de errores?
 El seguimiento de errores, también conocido como seguimiento de defectos o seguimiento de problemas, es el proceso de registrar y supervisar los errores o fallos durante las pruebas de software.
@@ -17,9 +17,17 @@ Un fallo típico puede pasar por las siguientes etapas:
 * BugVerificado. El fallo ha sido probado de nuevo y verificado por el departamento de control de calidad.
 * Bugcerrado. El departamento de control de calidad ha vuelto a probar el fallo después de arreglarlo o de comprobar que no era un fallo.
 * Reabierto. Desgraciadamente, un fallo puede pasar por las etapas anteriores y seguir sin arreglarse. Un fallo de este tipo puede reabrirse.
+
+## Clasificación de los fallos
+No todos los fallos son iguales. Algunos de estos fallos pueden permitir una funcionalidad mínima, mientras que otros pueden provocar una avería completa del sistema.
+
+Estas son algunas de las principales clasificaciones de los fallos:
+
+* Muy menores. Un fallo de este tipo puede ignorarse o tiene una solución sencilla. Un fallo de este tipo no afectará al lanzamiento del producto.
+* Fallode sistemas no críticos. Existe una solución para dicho fallo. El sistema puede lanzarse si tal fallo está bien documentado.
+* Deterioro de la funcionalidad. Puede existir una solución provisional, pero no es satisfactoria. Tal sistema no debe ser liberado a los usuarios finales.
+* Catastrófico. Un fallo de este tipo puede provocar una pérdida irrecuperable de datos y el fallo de la aplicación. Un sistema con un fallo de este tipo no debería ser liberado.
   
 # Bibliografias:
 
-* http://localhost/](https://aws.amazon.com/es/what-is/latency/#:~:text=La%20latencia%20de%20red%20es,respuesta%20r%C3%A1pidos%20tienen%20una%20baja.
-* https://www.eleconomista.com.mx/tecnologia/que-es-un-bug-20200131-0079.html
-* https://www.nytimes.com/es/2024/07/19/espanol/falla-informatica-mundial.html#:~:text=%E2%80%9CLas%20fallas%20ocurren%20constantemente%20y%20son%20inevitables%2C,operativo%20no%20era%20suficiente%20para%20mitigar%20ese
+* https://geekflare.com/es/bug-tracking-tools/
