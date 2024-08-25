@@ -31,4 +31,4 @@ Asi podemos hacer que se ejecute lo mas antes posible en el ciclo de la aplicaci
 
 Se podra observar en la cuenta los errores mandados a esta como notificaciones informando de los errores
 
-![Screenshot 4](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.2/Modulo_1/part%202/images/04.png)
+![Screenshot 5](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.2/Modulo_1/part%202/images/05.png)
