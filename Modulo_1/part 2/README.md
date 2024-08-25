@@ -12,3 +12,5 @@ Sentry es una plataforma de software de código abierto que se emplea para rastr
 * Información detallada del error. Recopila una amplia gama de información sobre los errores, incluyendo trazas de pila, variables locales y contexto del usuario. Esta información detallada facilita la reproducción y depuración de los problemas, lo que acelera el proceso de resolución de errores.
 * Agrupación y clasificación de errores. Agrupa automáticamente los errores similares sobre la base de su causa raíz, lo que ayuda a los desarrolladores a identificar patrones comunes y abordar problemas recurrentes de manera eficiente.
 * Integración con herramientas de desarrollo. Sentry se integra con una amplia gama de herramientas populares de desarrollo, como sistemas de control de versiones, servicios de seguimiento de problemas y plataformas de CI/CD. Esta integración permite una experiencia de desarrollo más fluida y simplifica el flujo de trabajo de corrección de errores.
+
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
