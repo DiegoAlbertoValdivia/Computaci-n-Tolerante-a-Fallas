@@ -22,4 +22,13 @@ Le asignamos un nombre al proyecto y dejamos puesta la opcion de que nos imforme
 ![Screenshot 2](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.2/Modulo_1/part%202/images/02.png)
 
 Intalamos Sentry SDK como una dependecia usando PIP y copiamos y pegamos el codigo de inicializacion:
+
 ![Screenshot 3](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.2/Modulo_1/part%202/images/03.png)
+
+Asi podemos hacer que se ejecute lo mas antes posible en el ciclo de la aplicacion, y para probar que todo esta bien conectado se pone tambien el fragmento de codigo que se proporciona para poder probocar un error intencional:
+
+![Screenshot 4](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.2/Modulo_1/part%202/images/04.png)
+
+Se podra observar en la cuenta los errores mandados a esta como notificaciones informando de los errores
+
+![Screenshot 4](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.2/Modulo_1/part%202/images/04.png)
