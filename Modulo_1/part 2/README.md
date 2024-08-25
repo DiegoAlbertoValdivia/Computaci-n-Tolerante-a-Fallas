@@ -15,4 +15,11 @@ Sentry es una plataforma de software de código abierto que se emplea para rastr
 
 Para empezar a utilizar Sentry necesitamos crear un nuevo proyecto y elegimos en este caso Python como el lenguaje a utilizar:
 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.2/Modulo_1/part%202/images/01.png)
+![Screenshot 1](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.2/Modulo_1/part%202/images/01.png)
+
+Le asignamos un nombre al proyecto y dejamos puesta la opcion de que nos imforme con notificaciones:
+
+![Screenshot 2](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.2/Modulo_1/part%202/images/02.png)
+
+Intalamos Sentry SDK como una dependecia usando PIP y copiamos y pegamos el codigo de inicializacion:
+![Screenshot 3](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.2/Modulo_1/part%202/images/03.png)
