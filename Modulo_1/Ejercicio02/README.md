@@ -111,4 +111,9 @@ ventana.mainloop()
 ```
 Nota: por ultimo etiquetamos y creamos el campo de entrada a la fecha, sueldo, y ejecutamos la aplicacion
 
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
+## interfaz de la toma de datos:
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.3/Modulo_1/Ejercicio02/images/1.png)
+## muestra de la grafica:
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.3/Modulo_1/Ejercicio02/images/2.png)
+## archivo csv de guardado de informacion:
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.3/Modulo_1/Ejercicio02/images/3.png)
