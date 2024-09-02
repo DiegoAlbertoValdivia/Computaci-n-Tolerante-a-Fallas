@@ -89,29 +89,26 @@ cargar_datos()
 Nota: generamos la grafica con los datos introducidos, creamos la ventana principal y cargamos los datos ya existentes
 
 ```javascript
+
 label_fecha = tk.Label(ventana, text="Fecha (YYYY-MM-DD):")
 label_fecha.pack(pady=5)
 entry_fecha = tk.Entry(ventana)
 entry_fecha.pack(pady=5)
 
-# Etiqueta y campo de entrada para el sueldo
 label_sueldo = tk.Label(ventana, text="Sueldo:")
 label_sueldo.pack(pady=5)
 entry_sueldo = tk.Entry(ventana)
 entry_sueldo.pack(pady=5)
 
-# Botón para añadir los datos
 boton_agregar = tk.Button(ventana, text="Agregar", command=agregar_dato)
 boton_agregar.pack(pady=5)
 
-# Botón para generar la gráfica
 boton_grafica = tk.Button(ventana, text="Generar Gráfica", command=mostrar_grafica)
 boton_grafica.pack(pady=10)
 
-# Ejecutar la aplicación
 ventana.mainloop()
 
 ```
 Nota: por ultimo etiquetamos y creamos el campo de entrada a la fecha, sueldo, y ejecutamos la aplicacion
 
-
+![](https://pandao.github.io/editor.md/examples/images/4.jpg)
