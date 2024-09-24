@@ -101,3 +101,7 @@ print("\nRecursos disponibles finales:")
 for recurso, cantidad in recursos.items():
     print(f"{recurso}: {cantidad}")
 ```
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.4/Modulo_1/Ejercicio03/image/4.png)
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.4/Modulo_1/Ejercicio03/image/5.png)
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.4/Modulo_1/Ejercicio03/image/6.png)
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.4/Modulo_1/Ejercicio03/image/7.png)
