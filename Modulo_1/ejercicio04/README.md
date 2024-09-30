@@ -67,8 +67,13 @@ status_label.pack(pady=10)
 # Inicia el bucle principal de tkinter
 root.mainloop()
 ```
-
-![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.4/Modulo_1/Ejercicio03/image/4.png)
-![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.4/Modulo_1/Ejercicio03/image/5.png)
-![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.4/Modulo_1/Ejercicio03/image/6.png)
-![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.4/Modulo_1/Ejercicio03/image/7.png)
+## Interfaz grafica
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.5/Modulo_1/ejercicio04/images/Captura%20de%20pantalla%202024-09-29%20194542.png)
+## pagina existente
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.5/Modulo_1/ejercicio04/images/Captura%20de%20pantalla%202024-09-29%20194722.png)
+## Error de acceso
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.5/Modulo_1/ejercicio04/images/Captura%20de%20pantalla%202024-09-29%20194757.png)
+## Estado de pagina 500
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.5/Modulo_1/ejercicio04/images/Captura%20de%20pantalla%202024-09-29%20195035.png)
+## Error 404
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.5/Modulo_1/ejercicio04/images/Captura%20de%20pantalla%202024-09-29%20195058.png)
