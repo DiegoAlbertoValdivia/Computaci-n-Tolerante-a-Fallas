@@ -11,6 +11,19 @@ https://www.youtube.com/watch?v=ewK4KszmeTI
 
 https://aprenderbigdata.com/apache-airflow
 
+## Para acompañar la instalación de airflow utilizaremos docker para ayudar a levantar el ambiente local
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.6/Modulo_1/Ejercicio05/images/Captura%20de%20pantalla%202024-09-29%20194542.png)
+
+## Tendremos que ir a la página oficial de Airflow para ahí poder leer las instrucciones y así poder ver las librerías y ayudarnos con ellas
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.6/Modulo_1/Ejercicio05/images/Captura%20de%20pantalla%202024-10-13%20175315.png)
+
+
+## Crearemos en este caso en visual Studio una carpeta llamada airflow, en la que incluiremos la subcarpetas de configuración tags loks y plugins en donde crearemos un archivo que descargaremos para así poder crear el ambiente
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.6/Modulo_1/Ejercicio05/images/Captura%20de%20pantalla%202024-10-13%20175341.png)
+
+## Para acceder al entorno vamos al navegador y escribimos el localhost 8080 para así poder absorber a la página de airflow
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.6/Modulo_1/Ejercicio05/images/Captura%20de%20pantalla%202024-10-13%20175812.png)
+
 ## Codigo para la creacion del entorno:
 
 ```javascript
@@ -303,7 +316,11 @@ services:
 volumes:
   postgres-db-volume:
 ```
-## en la carpeta de dags creamos un archivo python el cual nos ayudara a gestionar la creacion del nuevo dag
+
+## Ya ha creado el archivo abriremos una nueva terminal donde escribiremos "docker-compose up" para así hacer a la instalación del entorno local
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.6/Modulo_1/Ejercicio05/images/Captura%20de%20pantalla%202024-10-13%20175729.png)
+
+## en la carpeta de dags creamos un archivo python el cual nos ayudara a gestionar la creacion del nuevo dag en este caso sera un "hola mundo"
 
 ```javascript
 from datetime import datetime, timedelta
@@ -353,5 +370,14 @@ with dag:
 
 start_task >> first_task >> end_task
 ```
-## Error 404
-![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.5/Modulo_1/ejercicio04/images/Captura%20de%20pantalla%202024-09-29%20195058.png)
+## Una vez creado el archivo en la carpeta de plugins que descubrimos anteriormente o accederemos nuevamente a la consola para escribir "docker-compose restart" para así reiniciar o también podremos esperar el tiempo de espera establecido anteriormente
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.6/Modulo_1/Ejercicio05/images/Captura%20de%20pantalla%202024-10-13%20180106.png)
+
+## Ya reiniciado podremos acceder al navegador y ahí podremos observar el nuevo da creado con el nombre asignado
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.6/Modulo_1/Ejercicio05/images/Captura%20de%20pantalla%202024-10-13%20180136.png)
+
+## Viendo la información del DAC podemos observar los detalles de este la duración que han tenido las corridas que han dado y ahí podremos también hacer una run manual para observar la información
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.6/Modulo_1/Ejercicio05/images/Captura%20de%20pantalla%202024-10-13%20180155.png)
+
+## Abriendo el log de la ron podremos observar que se escribió correctamente el hola mundo y después se terminó correctamente
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.6/Modulo_1/Ejercicio05/images/Captura%20de%20pantalla%202024-10-13%20180226.png)
