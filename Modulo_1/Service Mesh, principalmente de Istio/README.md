@@ -70,3 +70,14 @@ https://github.com/istio/istio/releases.
 Abrimos en la barra de tareas, editar "Editar las variables de entorno del sistema". Dentro
 de las variables del usuario editamos la variable path y agregamos una nueva entrada a la
 carpeta bin.
+
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.9/Modulo_1/Service%20Mesh%2C%20principalmente%20de%20Istio/image/Captura%20de%20pantalla%202024-11-24%20171908.png)
+
+Despues en el cmd se ejecuta el comando “istioctl”
+
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.9/Modulo_1/Service%20Mesh%2C%20principalmente%20de%20Istio/image/Captura%20de%20pantalla%202024-11-24%20171931.png)
+
+Finalmente, se debe instalar el perfil demo mediante el siguiente comando “istioctl manifest
+apply --set profile=demo”
+
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.9/Modulo_1/Service%20Mesh%2C%20principalmente%20de%20Istio/image/Captura%20de%20pantalla%202024-11-24%20171952.png)
