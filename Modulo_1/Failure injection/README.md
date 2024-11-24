@@ -64,6 +64,8 @@ detecta una falla, el punto de inyección simula dicha falla de manera adecuada.
 continuación, se presenta un esquema de una falla simulada, que muestra algunos de los
 puntos de inflexión donde se puede inyectar la falla.
 
+![](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.9/Modulo_1/Failure%20injection/image/Captura%20de%20pantalla%202024-11-24%20170255.png)
+
 ## Alcance de la falla
 Es crucial limitar el alcance potencial de los fallos para asegurar que solo afecten a los
 objetivos previstos. Para ello, se utiliza Zuul, que ofrece capacidades avanzadas para
