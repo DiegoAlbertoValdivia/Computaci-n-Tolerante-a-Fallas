@@ -76,13 +76,13 @@ Para poder desplegar facilmente Istio, podemos utilizar su herramienta de consol
 ~~~bash
 istioctl install --set profile=demo
 ~~~
-![Istioctl en acción](./img/01.png "Istioctl en acción")
+![Istioctl en acción](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.9/Modulo_1/Proyecto%20v1%20/img/01.png "Istioctl en acción")
 
 **Nota:** Al instalar istio con el perfil demo no incluirá todas las herramientas que se verán en este reporte, no incluirá Jaeger, Grafana ni el dashboard web Kiali, estos se necesitan instalar usando kubectl utilizando los manifiestos de ejemplo que vienen incluidos en la carpeta de istioctl. Es decisión de cada quien decidir que tanto instalar, tambien dependerá de que tantos recursos tienes disponibles en tu computadora/cluster, debido a que puedes sobrecargar de servicios que tal vez no termines utilizando.
 
 ## Paso 2. Habilitar a istio en todos los deploys de nuestro espacio de trabajo.
 Para que nuestros servicios desplegados en Kubernetes puedan utilizar los servicios ofrecidos por Istio, será necesario habilitar la inyección de los contenedores de Istio en cada uno de los pods de nuestro servicio. Esto debido a que Istio funcionará como un proxy, todas las solicitudes que entren a nuestro servicio pasarán primero por Istio y despues, si la configuración lo permite, sera redirigido a nuestra aplicación.
-![Inyección de Istio en los deploys](./img/02.png "Inyección de Istio en los deploys")
+![Inyección de Istio en los deploys](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.9/Modulo_1/Proyecto%20v1%20/img/02.png "Inyección de Istio en los deploys")
 
 ## Paso 3. Crear nuestros deploys, servicios y el gateway de Istio para acceder a los servicios
 Ya que Istio esta listo para funcionar en nuestro Cluster, solo resta desplegar nuestras aplicaciones, cabe aclarar, que los servicios de las aplicaciones fueron creados como ClusterIP, por lo que no son accesibles desde fuera del Cluster, por lo que debemos configurar otro servicio para acceder desde fuera de el, en este caso utilizamos un IngressGateway:
@@ -129,17 +129,17 @@ spec:
         host: countries-service-v2
 ~~~
 
-![Configuración de deploys y servicios](./img/03.png "Configuración de deploys y servicios")
+![Configuración de deploys y servicios](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.9/Modulo_1/Proyecto%20v1%20/img/03.png "Configuración de deploys y servicios")
 
 Cuando ya tenemos todo desplegado, podemos revisar que los servicios sean accesibles, para esto podemos utilizar el comando ``kubectl get svc -A`` y buscamos el servicio que se llame istio-ingressgateway, podremos ver que tiene configurada una IP externa a la que podremos acceder.
 
-![Obteniendo la IP del Gateway](./img/06.png "Obteniendo la IP del Gateway")
+![Obteniendo la IP del Gateway](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.9/Modulo_1/Proyecto%20v1%20/img/06.png) "Obteniendo la IP del Gateway")
 
 Si accedemos desde Mozilla Firefox:
-![Accediendo al servicio desde firefox](./img/04.png "Accediendo al servicio desde firefox")
+![Accediendo al servicio desde firefox](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.9/Modulo_1/Proyecto%20v1%20/img/04.png "Accediendo al servicio desde firefox")
 
 Si accedemos desde Chrome:
-![Accediendo al servicio desde chrome](./img/05.png "Accediendo al servicio desde chrome")
+![Accediendo al servicio desde chrome](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.9/Modulo_1/Proyecto%20v1%20/img/05.png "Accediendo al servicio desde chrome")
 
 ## Paso 4. Iniciar el dashboard kiali
 Desde una terminal ejecutamos el siguiente comando para iniciar el dashboard web:
@@ -154,11 +154,11 @@ Podremos ver mucha información acerca de las aplicaciones en nuestro cluster, g
 while true; do curl http://countries-service-v2:5000/mexico > /dev/null 2>&1; done
 ~~~
 
-![Grafo de servicios](./img/09.png "Grafo de servicios")
+![Grafo de servicios](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.9/Modulo_1/Proyecto%20v1%20/img/09.png "Grafo de servicios")
 
 Podemos ver mucha información acerca de los servicios y la transferencia de datos entre ellos, por ejemplo, por varios segundos simule una solicitud correcta y por otros cuantos segundos una solicitud invalida, por lo que se observa que indica que la salud esta degradada. Si abrimos la pestaña de aplicaciones y seleccionamos nuestra aplicación, podremos ver graficos acerca de las metricas y estados de salud de la aplicación.
 
-![Metricas de la aplicación](./img/10.png "Metricas de la aplicación")
+![Metricas de la aplicación](https://github.com/DiegoAlbertoValdivia/Computaci-n-Tolerante-a-Fallas/blob/1.9/Modulo_1/Proyecto%20v1%20/img/10.png "Metricas de la aplicación")
 
 ---
 ## Conclusión
